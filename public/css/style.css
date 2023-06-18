@@ -1,0 +1,207 @@
+/* CSS styles for the navigation bar */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navdiv {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  /* CSS styles for the home page */
+.welcome-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .mission-statement {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .btn {
+    display: block;
+    width: 200px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center-align the button horizontally */
+    text-align: center;
+    background-color: #333; /* Apply the desired background color */
+    color: #fff; /* Apply the desired text color */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    text-decoration: none; /* Remove the default underline */
+  }
+  
+  .btn:hover {
+    background-color: #666;
+  }
+  
+  /* CSS styles for the copyright text */
+.text-center {
+    text-align: center;
+  }
+  
+  .text-muted {
+    color: #888;
+  }
+
+/* CSS styles for the about page */
+
+/* Center-align the content */
+.container {
+    text-align: center;
+  }
+  
+  /* CSS styles for the legal name */
+  .legal-name {
+    font-size: 24px; /* Adjust the font size as desired */
+    margin-top: 20px; /* Adjust the margin as desired */
+  }
+  
+  /* CSS styles for the profile image */
+  .profile-image {
+    width: 200px; /* Adjust the width as desired */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Adjust the margin as desired */
+  }
+  
+  /* CSS styles for the short paragraph */
+  .short-paragraph {
+    margin-top: 20px; /* Adjust the margin as desired */
+  }
+  
+  /* CSS styles for the resume link */
+  .resume-link {
+    display: inline-block;
+    margin-top: 20px; /* Adjust the margin as desired */
+    color: #333; /* Apply the desired text color */
+    text-decoration: none; /* Remove the default underline */
+  }
+  
+  .resume-link:hover {
+    text-decoration: underline; /* Apply underline on hover if desired */
+  }
+
+/* CSS styles for contact page */
+
+.contact-info {
+    margin-bottom: 30px;
+  }
+  
+  .contact-info-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .contact-form {
+    max-width: 400px;
+  }
+  
+  .contact-form-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-input {
+    height: 40px;
+  }
+  
+  .form-textarea {
+    height: 120px;
+  }
+  
+  .form-submit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-submit-btn:hover {
+    background-color: #555;
+  }
+  
+  
+  /* CSS styles for projects page */
+
+.project {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .project h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
